@@ -76,7 +76,7 @@ nav .profile-link a {
     grid-template-columns:  1fr 4fr 1fr;
     height: 100%;
     background-image: url('/assets/img/edward-howell-HXCVD8SYcQM-unsplash.jpg');
-    background-position:center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,9 +88,27 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
-    padding-top: 100px;
+    padding-top: 30vh;
     font-size: 50px;
     font-weight: 700px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-align: center;
+    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-main-button {
+    width: 150px;
+    height: 50px;
+    background-color: #e852595e;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #ffe5e5;
+    /* box-shadow: 0 1px 5px #333333; */
+}
+.home-main-button:hover {
+    background-color: #e8525a;
+    color: #ffffff;
 }
