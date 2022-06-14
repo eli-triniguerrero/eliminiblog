@@ -6,6 +6,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -42,4 +43,29 @@ header .header-icons-container .icons {
 }
 header .icons span {
     color:#ffe5e5;
+}
+
+/*NAV*/
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a {
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    font-size: 25px;
 }
