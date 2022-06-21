@@ -32,7 +32,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color:#e8525a;
+    background-color:#2b483b;
 }
 header .header-icons-container .icons {
     width: 300px;
@@ -71,8 +71,8 @@ nav .profile-link {
     margin-right: 50px;
 }
 nav .profile-link a {
-    color: #e8525a;
-    border-bottom: 1px solid #e8525a;
+    color: #2b483b;
+    border-bottom: 1px solid #2b483b;
     font-size: 25px;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns:  1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/edward-howell-HXCVD8SYcQM-unsplash.jpg');
+    background-image: url('../assets/img/Desktop-sherlock.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,8 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
-    padding-top: 30vh;
+    background-color: #fffce5b4;
+    margin-top: 40vh;
     font-size: 50px;
     font-weight: 700px;
     letter-spacing: 5px;
@@ -115,7 +116,7 @@ nav .profile-link a {
     /* box-shadow: 0 1px 5px #333333; */
 }
 .home-main-button:hover {
-    background-color: #e8525a;
+    background-color: #2b483b;
     color: #ffffff;
 }
 /**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -125,7 +126,7 @@ nav .profile-link a {
     display: grid;
 }
 .blogs-news-container {
-    background-color: #f2e5ff;
+    background-color: #bdebe9;
     padding: 0 50px 40px;
 }
 .blogs-main-new {
@@ -157,13 +158,13 @@ nav .profile-link a {
     text-align: center;
 }
 .blogs-button {
-    border: 1px solid #6c5682;
+    border: 1px solid #568279;
     /* background-color: #c39ce983; */
     padding: 10px 15px;
     font-weight: bold;
 }
 .blogs-button:hover {
-    background-color: #6c5682;
+    background-color: #1dc3aa;
     color: #ffffff;
 }
 /*posts*/
@@ -186,8 +187,8 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #333333;
-    border-top: 35px solid #e8525a;
-    color: #ffe5e5;
+    border-top: 35px solid #59a294;
+    color: #e5fffc;
     text-align: center;
     font-size: x-large;
 }
