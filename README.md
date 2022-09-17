@@ -1,5 +1,6 @@
 # eliminiblog
-Blog de Eli :)
+Me gusta visitar museos :)
 --------------------------
-Las fotografías que usaré para mi miniblog son de
-Edward Howell --> https://unsplash.com/es/fotos/HXCVD8SYcQM
+Las fotografías que se usan en este mini-sitio han sido tomadas por mi :) Eli
+
+![EliminiBlog-museos](/view_eliminiblog.png)
