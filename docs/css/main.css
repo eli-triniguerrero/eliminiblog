@@ -32,7 +32,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color:#e8525a;
+    background-color:#333333;
 }
 header .header-icons-container .icons {
     width: 300px;
@@ -48,7 +48,7 @@ header .header-icons-container .icons {
     margin-right: 50px;
 }
 header .icons span {
-    color:#ffe5e5;
+    color:#e1a100;
 }
 
 /*NAV*/
@@ -71,8 +71,8 @@ nav .profile-link {
     margin-right: 50px;
 }
 nav .profile-link a {
-    color: #e8525a;
-    border-bottom: 1px solid #e8525a;
+    color: #333333;
+    border-bottom: 1px solid #333333;
     font-size: 25px;
     font-weight: bold;
 }
@@ -80,9 +80,9 @@ nav .profile-link a {
 .home-main {
     display: grid;
     grid-template-columns:  1fr 4fr 1fr;
-    height: 100%;
-    background-image: url('../assets/img/edward-howell-HXCVD8SYcQM-unsplash.jpg');
-    background-position: top center;
+    height: 75%;
+    background-image: url('../assets/img/img_colllage_museums001.png');
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -94,7 +94,8 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
-    padding-top: 30vh;
+    background-color: #f2e5ff;
+    padding-top: 5vh;
     font-size: 50px;
     font-weight: 700px;
     letter-spacing: 5px;
@@ -105,17 +106,17 @@ nav .profile-link a {
 .home-main-button {
     width: 150px;
     height: 50px;
-    background-color: #e852595e;
+    background-color: #e1a100;
     border-radius: 20px;
     display: grid;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    color: #ffe5e5;
+    font-size: 25px;
+    color: #333333;
     /* box-shadow: 0 1px 5px #333333; */
 }
 .home-main-button:hover {
-    background-color: #e8525a;
+    background-color: #7a5801;
     color: #ffffff;
 }
 /**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -186,7 +187,7 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #333333;
-    border-top: 35px solid #e8525a;
+    border-top: 35px solid #e1a100;
     color: #ffe5e5;
     text-align: center;
     font-size: x-large;
@@ -238,7 +239,7 @@ footer {
 /*PERFIL*/
 .profile-main-container {
     padding: 70px 40px;
-    background: #ffe5e5;
+    background: #c4c4c4;
     margin-bottom: 50px;
 }
 .profile-main-container img {
