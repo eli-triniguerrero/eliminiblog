@@ -27,4 +27,16 @@
     .blogs-posts-container .post-container {
         max-width: 95%;
     }
+    .home-main section {
+        margin-top: 2rem;
+    }
+    .home-main-text {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+    .blogs-button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+    }
 }
